@@ -8,7 +8,7 @@ def binary_search(arr: list[int], item: int) -> Tuple[bool, int]: # add list[int
     return False, -1
 
   while low <= high:
-    midd = (low + high) // 2
+    midd = (low + high) // 2 # целочисленное деление midd должен быть int
     guess = arr[midd]
 
     if guess == item:

@@ -20,5 +20,5 @@ const binarySearch = (arr, item) => {
   return -1;
 }
 
-console.log(binarySearch([2, 4, 6, 7, 8, 69], 8))
-console.log(binarySearch([2, 4, 6, 7, 8, 69], 90))
+console.log(binarySearch([2, 4, 6, 7, 8, 69], 8));
+console.log(binarySearch([2, 4, 6, 7, 8, 69], 90));
