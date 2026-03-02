@@ -26,7 +26,7 @@ const findSmallest = (arr) => {
  * @param {number[]} arr 
  * @returns {number[]} отсортированный массив
  */
-const selectedSort = (arr) => {
+const selectionSort = (arr) => {
   
   const newArr = [];
   const originalLength = arr.length; // не меняеться сохраняем оригинальную длину массива
@@ -43,4 +43,4 @@ const selectedSort = (arr) => {
 let data = [44, 32, 4, 23, 59, 2, 98];
 
 console.log(findSmallest(data));
-console.log(selectedSort(data));
+console.log(selectionSort(data));
