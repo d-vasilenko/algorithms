@@ -19,12 +19,11 @@ def selection_sort(arr: list[int]) -> list[int]:
     """Сортировка выбором O(n^2)"""
 
     new_arr = []
-    original_len = len(arr) # сохраняем оригинальную длину массива
 
     if not arr:
         return []
 
-    for i in range(0, original_len):
+    for i in range(0, len(arr)):
         smallest_index = find_smallest_index(arr)
         new_arr.append(arr.pop(smallest_index))
   
